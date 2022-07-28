@@ -5,7 +5,7 @@ npx create-react-app [your file name]
 ```
 2.cd好文件的地址以后 用vscode using 
 ``` 
-yarn start  
+npm install // npm start  
 ```
 3.然后再删除自己不必要的东西
 
