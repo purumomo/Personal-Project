@@ -1,19 +1,17 @@
-
-#Video{
-    position:absolute;
+Video{
     width:100%;
     height:100%;
-    object-fit:cover;
-
+    object-fit:fill;
+    z-index: -1;
 }
 
 .hero{
     height:100vh;
     width:100%;
-    object-fit:contant;
+    object-fit:contain;
 }
 
-.hero .content{
+.content{
     text-align:center;
     position:absolute;
     margin:auto;
@@ -22,7 +20,7 @@
     top:40vh;
 }
 
-.hero .content h1{
+.content h1{
     font-size: 4rem;
     color: #fff;
 }

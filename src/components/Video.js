@@ -11,12 +11,12 @@ export const Video = () => {
             <source src={spaceVideo} type='video/mp4'/>
         </video>
     <div className='content'>
-        <h1>Galaxy.Travel.</h1>
-        <p>Lets use Scropo to fly.</p>
+        <h1>interstellar travel</h1>
+        <p>Start your space trainning</p>
         
    
     <div>
-    <Link to='/trainning' className='btn'>Trainning</Link>
+    <Link to='/trainning' className='btn'>Register</Link>
     <Link to='/contact' className='btn btn-light'>Launch</Link>
     </div>
     </div>
