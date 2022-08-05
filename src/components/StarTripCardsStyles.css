@@ -1,4 +1,9 @@
 .trip-card{
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+}
+.card-container-wrapper{
     max-width: 1140px;
     margin: auto;
     display: grid;
@@ -6,21 +11,30 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.card-container-wrapper  .trip-card-detail{
+    border: 1px solid #eee;
+    color: #eee;
+}
+.trip-card-detail {
+    text-align: center;
+    padding: 1rem;
+}
+
 .image-container img{
-    overflow: hidden;
-    height:250px;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     border: 1px solid #eee;
     color: #eee;
 }
 
-.trip-card:hover {
-    background-color: black;
-  }
-
-.trip-card-container {
-    padding: 1rem;
-    max-width: 240px;
-    margin:auto;
-    display: grid;
+.section-container{
+    flex: 1 1;
+    padding: 16px 24px 48px;
+    min-height: 120px;
+    border: 1px solid #eee;
+    color: #eee;
     
 }
+
+

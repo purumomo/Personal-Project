@@ -8,7 +8,7 @@ const Training = () => {
     return (
         <div>
             <Navbar />
-            <HeroImage heading='TRAINING.' text='Pre-Flight In-Flight Training.' />
+            <HeroImage heading='Register' text='Pre-Flight In-Flight Training.' />
             <TrainingSection />
             <Footer />
         </div>
