@@ -16,7 +16,7 @@ export const Video = () => {
         
    
     <div>
-    <Link to='/trainning' className='btn'>Register</Link>
+    <Link to='/register' className='btn'>Register</Link>
     <Link to='/contact' className='btn btn-light'>Launch</Link>
     </div>
     </div>

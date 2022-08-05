@@ -6,11 +6,12 @@ import Moon from '../assets/moon.jpg'
 
 const Training = () => {
     return (
+        
         <div className='training'>
             <div className='left'>
-                <h1>Register</h1>
-                <p>Build your astronauts.</p>
-                <Link to='/contact'><button className='btn'>Register</button></Link>
+                <p>Become your astronauts.</p>
+                <Link to='/register'><button className='btn'>Login</button></Link>
+                <Link to='/register'><button className='btn'>Register</button></Link>
             </div>
             <div className='right'>
                 <div className='img-container'>
