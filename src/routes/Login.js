@@ -1,18 +1,18 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import RegisterForm from '../components/Login'
+import LoginForm from '../components/Login'
 
 
-const Register = () => {
+const Login = () => {
     return (
         <div>
             <Navbar />
-            <RegisterForm />
+            <LoginForm />
             <Footer />
             
         </div>
     )
 }
 
-export default Register
+export default Login

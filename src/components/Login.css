@@ -40,3 +40,14 @@
     font-weight: 600;
     color: white;
   }
+  .btn-format{
+    text-align: center;
+  }
+
+.forgot-password{
+  padding:10px;
+}
+
+.SNS-login{
+  margin-top: auto;
+}

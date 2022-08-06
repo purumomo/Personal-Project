@@ -1,6 +1,8 @@
 import React from "react";
 import "./Login.css";
 import "../assets/Bg.jpg";
+import {GoogleLoginButton,TwitterLoginButton,FacebookLoginButton,InstagramLoginButton} from "react-social-login-buttons";
+import { Link } from "react-router-dom";
 
 export default function (props) {
     
@@ -20,22 +22,6 @@ export default function (props) {
                 />
             </div>
             <div className="form-group mt-3">
-                <label>Nickname</label>
-                <input
-                type="Nickname"
-                className="form-control mt-1"
-                placeholder="Enter email"
-                />
-            </div>
-            <div className="form-group mt-3">
-                <label>Re-enter password to confirm</label>
-                <input
-                type="password"
-                className="form-control mt-1"
-                placeholder="Enter email"
-                />
-            </div>
-            <div className="form-group mt-3">
                 <label>Password</label>
                 <input
                 type="password"
@@ -45,9 +31,25 @@ export default function (props) {
           </div>
           <div className="btn-format">
             <button type="submit" className="btn btn-primary">
+              Login
+            </button>
+            <Link to="/register">
+            <button type="register" className="btn btn-primary">
               Register
             </button>
-          </div>          
+            </Link>
+          </div>
+          <p className="forgot-password">
+            Forgot password?<a href="#"></a>
+          </p>
+          <div className='SNS-login'>
+          <GoogleLoginButton  onClick = { ( )  =>  alert ( "Hello" ) }  / >
+          <TwitterLoginButton onClick={() => alert("Hello")} />
+          <FacebookLoginButton onClick={() => alert("Hello")} />
+          <InstagramLoginButton onClick={() => alert("Hello")} />
+          </div>
+          
+
         </div>
         
       </form>
