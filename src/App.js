@@ -8,6 +8,7 @@ import Pricing from './routes/Pricing'
 import StarTrip from './routes/StarTrip';
 import Training from './routes/Training';
 import Register from './components/Register';
+import Mypage from './routes/Mypage';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<Login />}/>
         <Route path='/register' element={<Register />}/>
+        <Route path='/mypage' element={<Mypage />}/>
         
       </Routes>
     </>
