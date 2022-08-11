@@ -2,6 +2,6 @@
     display:flex;
 }
 .home .homeContainer{
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
     flex:6;
 }
