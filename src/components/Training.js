@@ -13,13 +13,13 @@ const Training = () => {
                 <Link to='/login'><button className='btn'>Login</button></Link>
                 <Link to='/register'><button className='btn'>Register</button></Link>
             </div>
-            <div className='right'>
+            <div className='right-page'>
                 <div className='img-container'>
                     <div className='image-stack top'>
-                        <img src={Moon} className='img' alt='' />
+                        <img src={Moon} className='img-1' alt='' />
                     </div>
                     <div className='image-stack bottom'>
-                        <img src={Pod} className='img' alt='' />
+                        <img src={Pod} className='img-1' alt='' />
                     </div>
                 </div>
             </div>

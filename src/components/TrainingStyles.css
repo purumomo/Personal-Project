@@ -17,11 +17,11 @@
     margin: 1.2rem 0;
 }
 
-.training .right {
+.training .right-page {
     width: 100%;
 }
 
-.right .img-container {
+.right-page .img-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     position: relative;
@@ -29,19 +29,19 @@
     text-align: center;
 }
 
-.right .img {
+.right-page .img-1 {
     max-width: 60%;
     border: 1px solid #333;
 }
 
-.right .top {
+.right-page .top {
     grid-column: 1 / span 8;
     grid-row: 1;
     padding-top: 20%;
     z-index: 6;
 }
 
-.right .bottom {
+.right-page .bottom {
     grid-column: 4/ -1; 
     grid-row: 1;
     z-index: 5;
@@ -52,7 +52,7 @@
         grid-template-columns: 1fr;
     }
 
-    .training .img {
+    .training .img-1 {
         max-width: 80%;
     }
 

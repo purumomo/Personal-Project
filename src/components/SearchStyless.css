@@ -1,4 +1,4 @@
-.visually-hidden {
+.SearchElement .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
@@ -6,4 +6,21 @@
     position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+.SearchElement .Searchbar-icon{
+    background-color: aliceblue;
+}
+.SearchElement .searchbutton-1 {
+    margin-bottom: 1rem;
+    padding: 0px 18px;
+    font-family: 'Outfit', sans-serif;
+    background: rgba(255,255,255,.1);
+    border-color: rgba(255,255,255,.1);
+    color: #f4f4f4;
+    float: right;
+}
+
+.SearchElement .SearchButton{
+    text-align: center;
+    background-color: darkgrey;
 }

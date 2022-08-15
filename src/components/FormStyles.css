@@ -1,13 +1,14 @@
 label {
     color: #eee;
+    
 }
 
 form {
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
+    padding: 10px;
     margin: auto;
-    max-width: 600px;
+    width: 22%;
+    
 }
 
 form label {
