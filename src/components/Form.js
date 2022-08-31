@@ -1,10 +1,10 @@
 import React from 'react'
 import './FormStyles.css'
 
-const Form = () => {
+const SearchForm = () => {
     return (
-        <div className='form'>
-            <form>
+        <div className='contact-form'>
+
                 <label>Your Name</label>
                 <input type='text'></input>
                 <label>Email</label>
@@ -14,9 +14,9 @@ const Form = () => {
                 <label>Details</label>
                 <textarea rows='6' placeholder='Type a short message here' />
                 <button className='btn'>Submit</button>
-            </form>
+
         </div>
     )
 }
 
-export default Form
+export default SearchForm

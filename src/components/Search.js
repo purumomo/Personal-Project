@@ -6,20 +6,8 @@ import { Button, Tooltip } from 'antd';
 import './SearchStyless.css'
 
 const SearchBar = () => (
-    <div className='SearchElement'>
-        <div className='SearchButton'>
-        <Tooltip title="search">
-        <Button type="dashed" shape="circle" icon={<SearchOutlined />} size="large" />
-        </Tooltip>
-
-        <Button type="dashed" icon={<SearchOutlined />} size="large">
-         Search
-        </Button>
-        <Button icon={<SearchOutlined />} size="large" href="https://www.google.com" />
-
-        </div>
-        
-        <form action="/" method="get">
+    <div className='SearchElement'>   
+        <div className='searchform' action="/" method="get">
             <label htmlFor="header-search">
                 <span className="visually-hidden">
                 </span>
@@ -30,8 +18,11 @@ const SearchBar = () => (
                 placeholder="Search your trip"
                 name="s" 
             />
-            <button type="submit" className='searchbutton-1'><SearchOutlinedIcon/></button>
-        </form>
+            <Button icon={<SearchOutlined />} type="submit" size="large" href="https://www.google.com" />
+        </div>
+        
+
+       
     </div>
 );
 

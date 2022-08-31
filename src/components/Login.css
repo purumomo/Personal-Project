@@ -1,53 +1,68 @@
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: url(../assets/Bg.jpg) no-repeat top left scroll;
+}
 
-.App {
-    background-color: white;
-  }
-  
-  .Auth-form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background: url(../assets/Bg.jpg) no-repeat top left scroll;
-  }
-  
-  .Auth-form {
-    width: 420px;
-    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    border-radius: 8px;
-    background-color: black;
-    border: 1px solid #eee;
-  }
-  
-  .Auth-form-content {
-    padding-left: 12%;
-    padding-right: 12%;
-  }
-  
-  .Auth-form-title {
-    text-align: center;
-    margin-bottom: 1em;
-    font-size: 24px;
-    color: white;
-    font-weight: 800;
-  }
-  
-  label {
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-  }
-  .btn-format{
-    text-align: center;
-  }
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: black;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: white;
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.btn-format{
+  text-align: center;
+  margin-bottom: 10px;
+  padding:20px;
+}
 
 .forgot-password{
-  padding:10px;
+padding:10px;
+cursor:pointer;
 }
 
 .SNS-login{
-  margin-top: auto;
+margin-top: auto;
+}
+
+.auth-btn{
+  padding: 10px 15px;
+  font-size: 20px;
+  width:120px;
+  cursor: pointer;
+  border: 0px;
+  position: relative;
+  margin: 6px;
+  transition: all .25s ease;
+  background: rgba(116, 23, 231, 1);
+  color: #fff;
+  overflow: hidden;
+  border-radius: 10px
+  
 }

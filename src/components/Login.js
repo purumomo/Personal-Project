@@ -4,8 +4,9 @@ import "../assets/Bg.jpg";
 import {GoogleLoginButton,TwitterLoginButton,FacebookLoginButton,InstagramLoginButton} from "react-social-login-buttons";
 import { Link } from "react-router-dom";
 
+
 export default function (props) {
-    
+  
   return (
     
     <div className="Auth-form-container">
@@ -13,7 +14,8 @@ export default function (props) {
             <form className="Auth-form">
             <div className="Auth-form-content">
             <h3 className="Auth-form-title">Sign In</h3>
-            <div className="form-group mt-3">
+
+            <div className="form-group-mt-3" >
                 <label>Email address</label>
                 <input
                 type="email"
@@ -29,12 +31,14 @@ export default function (props) {
                 placeholder="Enter password"
             />
           </div>
+
+          
           <div className="btn-format">
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="auth-btn">
               Login
             </button>
             <Link to="/register">
-            <button type="register" className="btn btn-primary">
+            <button type="register" className="auth-btn">
               Register
             </button>
             </Link>

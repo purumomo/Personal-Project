@@ -18,9 +18,21 @@
     border-color: rgba(255,255,255,.1);
     color: #f4f4f4;
     float: right;
+    cursor:pointer;
 }
 
 .SearchElement .SearchButton{
     text-align: center;
     background-color: darkgrey;
+    cursor:pointer;
 }
+
+
+.SearchElement .searchform {
+    position: relative;
+    background: var(--color-brand);
+    border-radius: var(--rad);
+    text-align: center;
+    padding: 20px;
+    }
+    
