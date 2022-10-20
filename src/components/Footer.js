@@ -4,7 +4,7 @@ import './FooterStyles.css';
 
 
 const Footer = () => {
-    return(
+    return(//just a test for github
         <div className='footer'>
             <div className='footer-container'>
                 <div className='left'>
